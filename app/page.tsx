@@ -4,7 +4,7 @@ import Link from "next/link"
 import { GlowingLogo } from "@/components/glowing-logo"
 import { ServiceCard } from "@/components/service-card"
 import { ExpertiseItem } from "@/components/expertise-item"
-import { PortfolioGallery } from "@/components/portfolio-gallery"
+import { EnhancedPortfolioGallery } from "@/components/enhanced-portfolio-gallery"
 import { ContactForm } from "@/components/contact-form"
 import { AnimatedBackground } from "@/components/animated-background"
 
@@ -122,10 +122,10 @@ export default function Home() {
               Our Luminary Work
             </h2>
             <p className="text-slate-300 max-w-2xl mx-auto">
-              Explore our portfolio of projects that shine with creativity and innovation.
+              Explore our portfolio of innovative projects that showcase our expertise in web development, design, and digital transformation.
             </p>
           </div>
-          <PortfolioGallery />
+          <EnhancedPortfolioGallery />
         </div>
       </section>
 
